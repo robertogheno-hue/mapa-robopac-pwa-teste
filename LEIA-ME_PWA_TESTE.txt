@@ -1,0 +1,73 @@
+MAPA INTERATIVO ROBOPAC — PWA DE TESTE
+======================================
+
+1. FINALIDADE
+
+Esta pasta é uma cópia de teste criada a partir do HTML oficial válido.
+O mapa oficial não foi alterado.
+
+Esta versão contém somente dados fictícios de técnicos, agenda, máquinas,
+pendências e hotéis. Não substituir o mapa oficial por esta pasta.
+
+
+2. ARQUIVOS
+
+index.html                     Entrada principal da PWA.
+manifest.json                  Nome, cores, comportamento e ícones do app.
+service-worker.js              Cache e funcionamento básico sem conexão.
+offline.html                   Tela apresentada quando não há conexão.
+icons/                         Ícones para Android, iPhone e instalação.
+
+
+3. REQUISITO PARA INSTALAR
+
+Uma PWA não pode ser instalada abrindo index.html diretamente pela unidade G:.
+Ela precisa ser acessada por um endereço HTTPS, por exemplo:
+
+https://servidor-interno/mapa-pwa-teste/
+
+O endereço pode ser interno ou privado. Não é necessário publicar os dados no
+GitHub Pages ou em outro site público.
+
+
+4. TESTE NO ANDROID
+
+1. Abra o endereço HTTPS no Google Chrome.
+2. Aguarde o mapa carregar completamente.
+3. Toque em "Instalar app" ou abra o menu do Chrome.
+4. Escolha "Instalar aplicativo" ou "Adicionar à tela inicial".
+5. Abra o ícone "Mapa Robopac" criado no aparelho.
+
+
+5. TESTE NO IPHONE
+
+1. Abra o endereço HTTPS obrigatoriamente no Safari.
+2. Aguarde o mapa carregar completamente.
+3. Toque no botão Compartilhar.
+4. Escolha "Adicionar à Tela de Início".
+5. Confirme o nome "Mapa Robopac" e toque em Adicionar.
+
+
+6. FUNCIONAMENTO SEM INTERNET
+
+A estrutura do aplicativo fica armazenada depois da primeira abertura.
+As áreas do mapa-base já visualizadas podem continuar disponíveis no cache.
+Áreas ainda não visitadas e recursos externos podem exigir conexão.
+
+
+7. SEGURANÇA DESTA VERSÃO
+
+- Não contém a Agenda 2026 real.
+- Não contém nomes, telefones, e-mails ou fotos dos técnicos reais.
+- Não contém máquinas, pendências, clientes ou hotéis reais.
+- Não lê arquivos da unidade G:.
+- Não possui a atualização automática do mapa oficial.
+- Exibe a identificação "PWA TESTE" e "dados fictícios".
+
+
+8. PRÓXIMA ETAPA
+
+Solicitar à TI um endereço HTTPS interno ou privado para hospedar esta pasta.
+Depois, testar a instalação em um Android e em um iPhone antes de planejar a
+autenticação corporativa e a conexão com dados reais.
+

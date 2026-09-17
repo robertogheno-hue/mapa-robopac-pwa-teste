@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Mapa Interativo Robopac — Teste",
+  "short_name": "Mapa Robopac",
+  "description": "Versão PWA demonstrativa do Mapa Interativo Robopac, contendo somente dados fictícios.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6f8",
+  "theme_color": "#003B70",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
+
